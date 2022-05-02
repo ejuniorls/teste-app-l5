@@ -19,7 +19,13 @@ DB_DATABASE=l5_database
 DB_USERNAME=usuário
 DB_PASSWORD=senha
 ```
-Execute o comando abaixo para criar as tabelas no banco para a aplicação
+Execute os comandos abaixo.
 ```bash
+php artisan key:generate
 php artisan migrate
+```
+
+Execute o comando abaixo para rodar a aplicação.
+```bash
+php artisan serve
 ```

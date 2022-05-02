@@ -34,6 +34,7 @@
                                     <th scope="col">E-MAIL</th>
                                     <th scope="col">TELEFONE</th>
                                     <th scope="col">CPF</th>
+                                    <th scope="col">CRIADO EM</th>
                                     @auth
                                         <th scope="col">AÇÕES</th>
                                     @endauth
@@ -47,6 +48,7 @@
                                         <td>{{ $contact->email }}</td>
                                         <td>{{ $contact->phone }}</td>
                                         <td>{{ $contact->cpf }}</td>
+                                        <td>{{ Carbon\Carbon::parse($contact->created_at)->format('d/m/Y') }}</td>
                                         <td>
                                             @auth
                                                 <div class="dropdown">
