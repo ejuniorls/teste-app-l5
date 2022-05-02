@@ -1,6 +1,7 @@
 ### Requisitos
 
 Será necessário ter instalado na máquina:
+- [API do projeto de teste](https://github.com/ejuniorls/teste-api-l5).
 - [Laragon](https://laragon.org/download/).
 - Banco de dados MySql.
 
